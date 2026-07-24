@@ -6,8 +6,6 @@ This is a sample text.
 
 Esc
 
-:w
-
-:q
+:wq
 
 vi -r test.txt
