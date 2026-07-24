@@ -24,6 +24,13 @@ Create a shell script to identify duplicate assignment submissions, back up uniq
    ```bash
    bash duplicate_check.sh
    ```
+## Explanation
+
+The required directories and files were created using Linux shell commands. Sample student submission files were placed inside the `submissions` folder, where one file was intentionally duplicated to simulate duplicate submissions.
+
+The shell script calculates the checksum of every submission using the `md5` command. If the checksum already exists, the file is identified as a duplicate and its name is stored in `errors.log`. Otherwise, the file is copied to the `backup` folder.
+
+After processing all files, the script generates `report.txt`, which contains the total number of processed files, duplicate files, and backed-up files.
 
 ## Output
 - Total Files Processed: 3
