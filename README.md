@@ -3,7 +3,7 @@
 ## Student Information
 - **Name:** Sanskriti Suhani
 - **Course:** Command Line Interface and Scripting
-- **Assignment:** Graded Lab (Modules 5–10)
+
 
 ## Repository Structure
 
