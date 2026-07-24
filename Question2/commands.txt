@@ -1,0 +1,7 @@
+gcc process.c -o process
+
+./process
+
+./process > output.txt
+
+cat output.txt

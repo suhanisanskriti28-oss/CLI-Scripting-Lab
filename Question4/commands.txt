@@ -1,0 +1,7 @@
+grep "ERROR" server.log > error_report.txt
+
+cat error_report.txt
+
+tail -f server.log
+
+echo "ERROR Disk Full" >> server.log

@@ -1,0 +1,17 @@
+mkdir submissions backup screenshots
+
+touch duplicate_check.sh report.txt errors.log commands.txt explanation.md
+
+echo "Assignment submitted by Student 1" > submissions/student1.txt
+
+echo "Assignment submitted by Student 2" > submissions/student2.txt
+
+cp submissions/student1.txt submissions/student3.txt
+
+bash duplicate_check.sh
+
+cat report.txt
+
+cat errors.log
+
+ls backup

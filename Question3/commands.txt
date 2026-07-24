@@ -1,0 +1,7 @@
+gcc employee.c -o employee
+
+./employee
+
+./employee > output.txt
+
+cat output.txt

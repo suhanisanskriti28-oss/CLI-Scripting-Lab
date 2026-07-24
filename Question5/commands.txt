@@ -1,0 +1,13 @@
+vi test.txt
+
+i
+
+This is a sample text.
+
+Esc
+
+:w
+
+:q
+
+vi -r test.txt
