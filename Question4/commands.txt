@@ -1,3 +1,5 @@
+touch server.log error_report.txt commands.txt explanation.md
+
 grep "ERROR" server.log > error_report.txt
 
 cat error_report.txt
